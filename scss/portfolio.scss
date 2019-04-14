@@ -1,0 +1,57 @@
+@import "variables.scss";
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+//test this
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
+//400 not used
+
+#portfolio-design .subHeader{
+  font-family: $font-robotomono;
+  color: $font-sub;
+}
+
+#portfolio-design h1 {
+  font-weight: 700; //bold
+
+}
+
+#portfolio-design h2 {
+  font-weight: 700; //bold
+  text-transform: uppercase;
+  font-size: .9em;
+  font-family: $font-nunito;
+
+}
+
+#portfolio-design p{
+  font-family: $font-nunito;
+  font-weight: 300; //light
+  font-size: 1.1em;
+  line-height: 1.7;
+}
+
+#portfolio-design .boldHighlight{
+  font-weight: 600; //semi-bold
+  font-family: $font-nunito;
+
+}
+
+
+//<div class="numberCircle">30</div>
+.numberCircle {
+  border-radius: 50%;
+  behavior: url(PIE.htc);
+  /* remove if you don't care about IE8 */
+  width: 36px;
+  height: 36px;
+  padding: 8px;
+  background: #fff;
+  border: 2px solid #666;
+  color: #666;
+  text-align: center;
+  font: 32px Arial, sans-serif;
+}
