@@ -12,12 +12,16 @@
 #portfolio-design .subHeader{
   font-family: $font-robotomono;
   color: $font-sub;
-  font-size: 1.1em;
+  font-size: 1em;
+
 }
 
 #portfolio-design h1 {
   font-weight: 700; //bold
-  font-size: 1.2em;
+  font-size: 1.5em;
+  color: #686868;
+  font-family: $font-nunito;
+  padding-bottom: .5rem;
 
 }
 
@@ -41,8 +45,9 @@
 #portfolio-design p{
   font-family: $font-nunito;
   font-weight: 300; //light
-  font-size: 1.1em;
+  font-size: 1.0em;
   line-height: 1.7;
+  color: #434343;
 }
 
 #portfolio-design .p-mini, ul{
@@ -90,12 +95,13 @@
   border-radius: 50%;
   behavior: url(PIE.htc);
   /* remove if you don't care about IE8 */
-  width: 36px;
-  height: 36px;
-  padding: 8px;
-  background: #fff;
-  border: 2px solid #666;
-  color: #666;
+  width: 27px;
+  height: 27px;
+  padding-top: 0px;
+  background: #3365ff;
+  border: 2px solid #3365ff;
+  color: #fff;
   text-align: center;
-  font: 32px Arial, sans-serif;
+  font: 18px $font-nunito, sans-serif;
+  font-weight: 400;
 }
