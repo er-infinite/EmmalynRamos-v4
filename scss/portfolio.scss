@@ -8,13 +8,16 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700');
 //400 not used
 
+//h4
 #portfolio-design .subHeader{
   font-family: $font-robotomono;
   color: $font-sub;
+  font-size: 1.1em;
 }
 
 #portfolio-design h1 {
   font-weight: 700; //bold
+  font-size: 1.2em;
 
 }
 
@@ -77,11 +80,9 @@
   font-size: 2.5rem;
   background-color: #3365ff;
   color: #fff;
-  padding: 3rem 0;
+  padding: 2.3rem 0;
   font-family: $font-nunito;
   font-weight: 700;
-
-
 }
 
 //<div class="numberCircle">30</div>
