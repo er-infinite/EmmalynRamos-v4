@@ -24,6 +24,13 @@
   font-family: "Nunito", sans-serif;
 }
 
+#portfolio-design h3 {
+  font-weight: 300;
+  font-size: 1em;
+  font-family: "Nunito", sans-serif;
+  color: #A5A5A5;
+}
+
 #portfolio-design p {
   font-family: "Nunito", sans-serif;
   font-weight: 300;
@@ -31,9 +38,39 @@
   line-height: 1.7;
 }
 
+#portfolio-design .p-mini, ul {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+#portfolio-design .p-mini {
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+#portfolio-design li {
+  margin-bottom: .5rem;
+}
+
 #portfolio-design .boldHighlight {
   font-weight: 600;
   font-family: "Nunito", sans-serif;
+}
+
+#portfolio-design .banner {
+  background-color: #AED6F1;
+  height: 7rem;
+  width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#portfolio-design .banner-text {
+  color: #fff;
 }
 
 .numberCircle {
