@@ -716,8 +716,15 @@ svg:hover .my-shape {
 
 #portfolio-design .topHeader {
   font-size: 3rem;
-  color: #34495eff;
   font-family: "Knewave", cursive;
+}
+
+#VDT {
+  color: #34495eff !important;
+}
+
+#hexhacks {
+  color: #FF6E60 !important;
 }
 
 #portfolio-design h2 {
