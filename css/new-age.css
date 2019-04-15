@@ -456,6 +456,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   border-radius: 9px;
 }
 
+.btn-1:hover {
+  color: #E3FAFF;
+}
+
 .bg-lightblue {
   background: #E3FAFF;
 }
