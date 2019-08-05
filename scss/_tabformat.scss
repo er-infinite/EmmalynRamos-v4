@@ -145,7 +145,7 @@ body {
 }
 
 .nav-tabs>.nav-item>.nav-link {
-    color: #888888;
+    color: $font-sub;
     margin: 0;
     margin-right: 5px;
     background-color: transparent;
@@ -154,6 +154,7 @@ body {
     font-size: 14px;
     padding: 11px 23px;
     line-height: 1.5;
+    font-weight: bold;
 }
 
 .nav-tabs>.nav-item>.nav-link:hover {
@@ -161,9 +162,10 @@ body {
 }
 
 .nav-tabs>.nav-item>.nav-link.active {
-    background-color: rgb(174, 2, 2);
+    background-color: $theme-blue;
     border-radius: 30px;
-    color: #FFFFFF;
+    color: $font-gray;
+    font-weight: bold;
 }
 
 .nav-tabs>.nav-item>.nav-link i.now-ui-icons {
@@ -177,11 +179,19 @@ body {
     color: #FFFFFF;
 }
 
+.nav-tabs.nav-tabs-neutral>.nav-item>.nav-link {
+    color: red;
+}
+
+
 .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active {
-    background-color: 
-    white;
-    color: $gray-light;
+    background-color: $font-gray;
+    color: $theme-blue;
     font-weight: bold;
+}
+
+.opposite.active{
+    color: $font-gray !important;
 }
 
 .card {
@@ -235,6 +245,10 @@ body {
     background-color: $theme-blue;
 }
 
+[data-background-color="mygray"] {
+    background-color: $font-gray;
+}
+
 [data-background-color]:not([data-background-color="gray"]) {
     color: #FFFFFF;
 }
@@ -244,7 +258,8 @@ body {
 }
 
 [data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item) {
-    color: $gray-light;
+    color:$font-sub;
+    font-weight: bold;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .nav-tabs>.nav-item>.nav-link i.now-ui-icons {

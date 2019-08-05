@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @import url('https://fonts.googleapis.com/css?family=Knewave|Open+Sans|Roboto+Mono');
 
+.smoothScroll{
+  scroll-behavior: smooth;
+}
+
 .caseStudy{
   background: black;
 }
@@ -51,6 +55,18 @@
   }
 }
 
+.header-knewave {
+  font-size: 3em;
+  font-family: 'Knewave', cursive;
+  text-transform: uppercase;
+}
+
+.me{
+  max-height: 220px;
+  display:block;
+    margin:auto;
+}
+
 .portfolio-blue{
   background-color: $theme-blue;
 }
@@ -72,9 +88,6 @@
     // text-align: center;
     color: $theme-blue;
     // background-color: $theme-primary;
-
-
-
 }
 
 .bg-lightblue{
@@ -371,5 +384,44 @@ svg:hover .my-shape{
   color: #666;
   text-align: center;
   font: 32px Arial, sans-serif;
+}
+
+// Button Contact
+.btn-contact{
+  color: $font-sub;
+  border: 1px solid;
+  border-color: $theme-blue;
+  background-color: $theme-blue;
+  // font-size: 1em;
+  text-transform: uppercase;
+    // font-size: .2em;
+    // background-color: transparent;
+    // color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: .85em;
+    // border: 2px solid #fff;
+    padding: 9px;
+    text-align: center;
+    font-family: $font-robotomono;
+    // font-weight: bold;
+  &:focus,
+  &:hover{
+    color:$font-gray;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  &:active,
+  &.active {
+      color: $font-gray;
+      border-color: transparent;
+      background-color: transparent;
+      font-weight: bold;
+    
+  }
+}
+
+.img-logo{
+  max-width: 100px;
 }
 

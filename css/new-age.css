@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
+@import url("https://fonts.googleapis.com/css?family=Lora|Merriweather|Merriweather+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lora|Merriweather|Merriweather+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans");
 @import url("https://fonts.googleapis.com/css?family=Knewave|Open+Sans|Roboto+Mono");
@@ -445,6 +447,10 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   padding: 15px 45px;
 }
 
+.smoothScroll {
+  scroll-behavior: smooth;
+}
+
 .caseStudy {
   background: black;
 }
@@ -487,6 +493,18 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-caseStudy:hover, .btn-caseStudy:focus, .btn-caseStudy:active, .btn-caseStudy.active {
   color: white;
   background-color: #5e5e5e;
+}
+
+.header-knewave {
+  font-size: 3em;
+  font-family: 'Knewave', cursive;
+  text-transform: uppercase;
+}
+
+.me {
+  max-height: 220px;
+  display: block;
+  margin: auto;
 }
 
 .portfolio-blue {
@@ -776,6 +794,37 @@ svg:hover .my-shape {
   font: 32px Arial, sans-serif;
 }
 
+.btn-contact {
+  color: #A5A5A5;
+  border: 1px solid;
+  border-color: #E3FAFF;
+  background-color: #E3FAFF;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-size: .85em;
+  padding: 9px;
+  text-align: center;
+  font-family: "Roboto Mono";
+}
+
+.btn-contact:focus, .btn-contact:hover {
+  color: #464646;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.btn-contact:active, .btn-contact.active {
+  color: #464646;
+  border-color: transparent;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.img-logo {
+  max-width: 100px;
+}
+
 #portfolio-design .subHeader {
   font-family: "Roboto Mono";
   color: #A5A5A5;
@@ -793,6 +842,65 @@ svg:hover .my-shape {
 #portfolio-design .topHeader {
   font-size: 3rem;
   font-family: "Knewave", cursive;
+}
+
+#portfolio-design2 .subHeader {
+  font-family: "Roboto Mono";
+  color: #A5A5A5;
+  font-size: 1em;
+  margin-top: 2rem;
+  border-bottom: 1px solid #A5A5A5;
+  /* Or whatever color you want */
+  text-decoration: none;
+  border-spacing: 3em;
+  padding: 4px 0;
+  margin-bottom: 1rem;
+}
+
+#portfolio-design2 .subHeaderHelper {
+  margin-top: 0;
+}
+
+#portfolio-design2 h1 {
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: "Merriweather Sans", sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+#portfolio-design2 h2 {
+  font-weight: 600;
+  font-size: 1em;
+  font-family: "Merriweather Sans", sans-serif;
+  margin: 2rem 0 1rem 0;
+}
+
+#portfolio-design2 p {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.2em;
+  line-height: 1.7;
+  color: #434343;
+}
+
+#portfolio-design2 .div-wrapper {
+  position: relative;
+}
+
+#portfolio-design2 .div-wrapper img {
+  position: absolute;
+  bottom: 0;
+  max-height: 240px;
+}
+
+#portfolio-design2 .boldHighlight2 {
+  font-weight: 600;
+}
+
+#portfolio-design2 .persona {
+  border-left: 3px solid #464646;
+  padding-left: 15px;
+  font-style: italic;
 }
 
 #VDT {
@@ -1040,7 +1148,7 @@ body {
 }
 
 .nav-tabs > .nav-item > .nav-link {
-  color: #888888;
+  color: #A5A5A5;
   margin: 0;
   margin-right: 5px;
   background-color: transparent;
@@ -1049,6 +1157,7 @@ body {
   font-size: 14px;
   padding: 11px 23px;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .nav-tabs > .nav-item > .nav-link:hover {
@@ -1056,9 +1165,10 @@ body {
 }
 
 .nav-tabs > .nav-item > .nav-link.active {
-  background-color: #ae0202;
+  background-color: #E3FAFF;
   border-radius: 30px;
-  color: #FFFFFF;
+  color: #464646;
+  font-weight: bold;
 }
 
 .nav-tabs > .nav-item > .nav-link i.now-ui-icons {
@@ -1072,10 +1182,18 @@ body {
   color: #FFFFFF;
 }
 
+.nav-tabs.nav-tabs-neutral > .nav-item > .nav-link {
+  color: red;
+}
+
 .nav-tabs.nav-tabs-neutral > .nav-item > .nav-link.active {
-  background-color: white;
-  color: #777777;
+  background-color: #464646;
+  color: #E3FAFF;
   font-weight: bold;
+}
+
+.opposite.active {
+  color: #464646 !important;
 }
 
 .card {
@@ -1129,6 +1247,10 @@ body {
   background-color: #E3FAFF;
 }
 
+[data-background-color="mygray"] {
+  background-color: #464646;
+}
+
 [data-background-color]:not([data-background-color="gray"]) {
   color: #FFFFFF;
 }
@@ -1138,7 +1260,8 @@ body {
 }
 
 [data-background-color]:not([data-background-color="gray"]) a:not(.btn):not(.dropdown-item) {
-  color: #777777;
+  color: #A5A5A5;
+  font-weight: bold;
 }
 
 [data-background-color]:not([data-background-color="gray"]) .nav-tabs > .nav-item > .nav-link i.now-ui-icons {

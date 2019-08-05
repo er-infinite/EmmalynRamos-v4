@@ -31,6 +31,75 @@
 
 }
 
+#portfolio-design2 {
+  .subHeader{
+    font-family: $font-robotomono;
+    color: $font-sub;
+    font-size: 1em;
+    margin-top: 2rem;
+    border-bottom: 1px solid $font-sub; /* Or whatever color you want */
+    text-decoration: none;
+    border-spacing: 3em;
+    padding: 4px 0;
+    margin-bottom: 1rem;
+
+  }
+
+  .subHeaderHelper{
+    margin-top: 0;
+  }
+
+  h1 {
+    font-weight: 700; //bold
+    // text-transform: uppercase;
+    font-size: 1.5em;
+    font-family: $font-merriweathersans;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+  }
+
+  h2 {
+    font-weight: 600; //bold
+    font-size: 1em;
+    font-family: $font-merriweathersans;
+    margin: 2rem 0 1rem 0 ;
+  }
+
+  p {
+    font-family: $font-nunito;
+    // font-weight: 300; //light
+    font-size: 1.2em;
+    line-height: 1.7;
+    color: #434343;
+  }
+
+  .div-wrapper{
+    position: relative;
+  }
+
+  .div-wrapper img{
+    position: absolute;
+    // left: 50%;
+    bottom: 0;
+    // margin-left: calc(-80% / 2); 
+    max-height: 240px;
+
+  }
+
+  .boldHighlight2 {
+    font-weight: 600;
+  }
+
+  .persona{
+    border-left: 3px solid $font-gray;
+    padding-left: 15px;
+    font-style: italic;
+  }
+
+
+
+}
+
 #VDT {
   color: #34495eff !important;
 }
