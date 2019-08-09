@@ -1,19 +1,21 @@
 // Styling for the footer
 footer {
-    padding: 25px 0;
+    padding:0 !important;
     text-align: center;
-    color: fade-out(white, .7);
-    background-color: $gray-darker;
+    // color: fade-out(white, .7);
+    // background-color: $gray-darker;
     p {
-        font-size: 12px;
+        font-size: .9em;
         margin: 0;
+      
     }
     ul {
         margin-bottom: 0;
         li {
             a {
                 font-size: 12px;
-                color: fade-out(white, .7);
+                // color: fade-out(white, .7);
+                color: fade-out(black, .7);
                 &:hover,
                 &:focus,
                 &:active,
@@ -23,6 +25,29 @@ footer {
             }
         }
     }
+
+    h5{
+        // color: white;
+        
+        font-weight: bold;
+    }
+
+    .bg-toughFooter1{
+        
+        // background: $font-gray;
+        padding: 2rem 2rem;
+          color: $font-gray !important;
+        // width: 100%; // These are well supported and I use them on my site
+          // height: 100vh;// I even tweeted guil and he agreed a good choice
+      }
+
+    .bg-toughFooter2{
+        color:white;
+        background: #2D2D32;
+        padding: 1rem 2rem;
+        // width: 100%; // These are well supported and I use them on my site
+          // height: 100vh;// I even tweeted guil and he agreed a good choice
+      }
 }
 
 /* Footer */
